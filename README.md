@@ -57,7 +57,14 @@ to set up the project and configure the database.
 ```
 - POST /user/auth: Authenticate a user and return an access token.
 ```
-   //Register Authenticate Sucess
+   //JSON CONTENT BODY
+{
+    "username": "",
+    "password": ""
+}
+
+
+ //Register Authenticate Sucess
 {
   "status": "success",
   "access_token": "[Your Token]",

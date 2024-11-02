@@ -45,7 +45,9 @@ to set up the project and configure the database.
     "username": "",
     "password": ""
 }
-   //The Following Section are Response
+
+
+  //The Following Section are Response
    //Register Succesfull
 {
   "status": "success",

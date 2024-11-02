@@ -11,7 +11,7 @@ It also includes token-based security with token rotation and expiration.
 - **JWT-based Security**: Access tokens with one-time usage, expiration, and rotation for enhanced security.
 
 ## Table of Contents
-- Getting Started(#getting-started)
+- [Getting Started](#getting-started)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)

@@ -82,8 +82,9 @@ to set up the project and configure the database.
 ```
 **Install Dependencies with Composer**
 ```
-composer intall
+composer install
 ```
+**Access the API at http://localhost:8000.**
 
 
 

@@ -80,6 +80,10 @@ to set up the project and configure the database.
   }
 }
 ```
+**Install Dependencies with Composer**
+```
+composer intall
+```
 
 
 

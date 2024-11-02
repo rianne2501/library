@@ -38,10 +38,15 @@ to set up the project and configure the database.
 ## Api-Endpoints
    This is how you use the codes
 ## User Authentication 
-- POST /user/register: Register a new user.
- **RESPONSE**  
+- POST /user/register: Register a new user.  
 ```
-//Register Succesfull
+   //JSON CONTENT BODY
+{
+    "username": "",
+    "password": ""
+}
+   //The Following Section are Response
+   //Register Succesfull
 {
   "status": "success",
   "access_token": "[Your Token]",
@@ -50,7 +55,7 @@ to set up the project and configure the database.
 ```
 - POST /user/auth: Authenticate a user and return an access token.
 ```
-//Register Authenticate Sucess
+   //Register Authenticate Sucess
 {
   "status": "success",
   "access_token": "[Your Token]",

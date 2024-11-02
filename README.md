@@ -35,7 +35,24 @@ to set up the project and configure the database.
    git clone- https://github.com/rianne2501/library-api.git
    cd library-api
 
-## Api-Enpoints
+## Api-Endpoints
+   User Authentication
+POST /user/register: Register a new user.
+POST /user/auth: Authenticate a user and return an access token.
+   Authors
+POST /authors: Add a new author.
+GET /authors/get: Retrieve all authors.
+PUT /authors/update/{id}: Update author information by ID.
+DELETE /authors/delete/{id}: Delete an author by ID.
+   Books
+POST /books: Add a new book.
+GET /books/get: Retrieve all books.
+PUT /books/update/{id}: Update book information by ID.
+DELETE /books/delete/{id}: Delete a book by ID.
+   Book-Author Relationships
+POST /books_authors: Link a book and an author.
+GET /books_authors/get: Retrieve all book-author relationships.
+DELETE /books_authors/delete/{id}: Delete a book-author relationship by ID.
 
 
    

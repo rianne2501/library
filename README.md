@@ -46,6 +46,7 @@ to set up the project and configure the database.
     "password": ""
 }
 ```
+**Response**
 ```
    //Register Succesfull
 {

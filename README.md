@@ -14,7 +14,10 @@ It also includes token-based security with token rotation and expiration.
 - [Getting Started](#getting-started)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [API Endpoints/Documentation](#api-endpoints)
+- [User Authentication](#api-endpoints)
+- [Authors](#authors)
+- [Books](#books)
+- [Book-Author Relationships](#br-relationships)
 - [License](#license)
 
 ## Getting Started
@@ -35,8 +38,6 @@ to set up the project and configure the database.
    git clone- https://github.com/rianne2501/library-api.git
    cd library-api
 
-## Api-Endpoints
-   This is how you use the codes
 ## User Authentication 
 - POST /user/register: Register a new user.
  ``` 
@@ -80,6 +81,9 @@ to set up the project and configure the database.
   }
 }
 ```
+## Author 
+## Book 
+## Book-Author Relationship 
 **Install Dependencies with Composer**
 ```
 composer install

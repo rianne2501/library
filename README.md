@@ -39,7 +39,7 @@ to set up the project and configure the database.
    This is how you use the codes
 ## User Authentication 
 - POST /user/register: Register a new user.
-- **RESPONSE**  
+ **RESPONSE**  
 ```
 //Register Succesfull
 {
@@ -49,6 +49,22 @@ to set up the project and configure the database.
 }
 ```
 - POST /user/auth: Authenticate a user and return an access token.
+```
+//Register Authenticate Sucess
+{
+  "status": "success",
+  "access_token": "[Your Token]",
+  "data": null
+}
+//Register Authenticate Failed
+{
+  "status": "fail",
+  "access_token": null,
+  "data": {
+    "title": "Authentication Failed"
+  }
+}
+```
 
 
 

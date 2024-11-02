@@ -1,5 +1,5 @@
-#PROJECT
-# Library API
+
+# Project Library API
 
 This project is a simple REST API built with PHP, Slim Framework, and JWT (JSON Web Tokens) for authentication. The API allows users to manage books, authors,
 and their relationships in a library database, with endpoints for user registration, authentication, and CRUD operations on authors and books. 
@@ -14,7 +14,7 @@ It also includes token-based security with token rotation and expiration.
 - [Getting Started](#getting-started)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
+- [API Endpoints/Documentation](#api-endpoints)
 - [License](#license)
 
 ## Getting Started
@@ -34,4 +34,9 @@ to set up the project and configure the database.
    ```bash
    git clone- https://github.com/rianne2501/library-api.git
    cd library-api
+
+## Api-Enpoints
+
+
+   
     

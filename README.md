@@ -36,7 +36,7 @@ to set up the project and configure the database.
    cd library-api
 
 ## Api-Endpoints
-   User Authentication
+   User Authentication                                                            
 POST /user/register: Register a new user.
 POST /user/auth: Authenticate a user and return an access token.
    Authors
@@ -51,8 +51,9 @@ PUT /books/update/{id}: Update book information by ID.
 DELETE /books/delete/{id}: Delete a book by ID.
    Book-Author Relationships
 POST /books_authors: Link a book and an author.
-GET /books_authors/get: Retrieve all book-author relationships.
-DELETE /books_authors/delete/{id}: Delete a book-author relationship by ID.
+GET /books_authors/get: Retrieve all book-author relationships.DELETE /books_authors/delete/{id}: Delete a book-author relationship by ID.
+
+
 
 
    

@@ -39,6 +39,14 @@ to set up the project and configure the database.
    This is how you use the codes
 ## User Authentication 
 - POST /user/register: Register a new user.
+**RESPONSE**  
+```
+//Register Succesfull
+{
+  "status": "success",
+  "access_token": "[Your Token]",
+  "data": null
+}
 - POST /user/auth: Authenticate a user and return an access token.
 
 

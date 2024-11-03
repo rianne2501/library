@@ -87,7 +87,7 @@ to set up the project and configure the database.
      //JSON CONTENT BODY
 {
    {
-  "token": "Your token"
+  "token": Your token
 }
 }
 ```

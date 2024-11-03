@@ -185,6 +185,38 @@ to set up the project and configure the database.
   "access_token": "Your Token",
   "data": []
 ```
+- PUT /books/update/{id}: Update book information by ID.
+```
+//Json Content
+{
+    "title": "",
+    "author_id": "",
+    "token": "Your Token"
+}
+```
+**Respone**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
+```
+- DELETE /books/delete/{id}: Delete a book by ID.
+```
+//Json Content
+{
+    "token": "Your Token"
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
+```
 ## Book-Author Relationship 
 **Install Dependencies with Composer**
 ```

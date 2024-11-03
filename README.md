@@ -121,7 +121,37 @@ to set up the project and configure the database.
   "access_token": "You Token",
   "data": []
   }
-
+```
+- PUT /authors/update/{id}: Update author information by ID.
+```
+//Json Content
+{
+    "token": "Your Token",
+    "name": ""
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
+```
+- DELETE /authors/delete/{id}: Delete an author by ID.
+```
+//Json Content
+{
+    "token": "Your Token"
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
 ```
 ## Book 
 ## Book-Author Relationship 

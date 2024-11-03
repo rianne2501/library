@@ -19,6 +19,7 @@ It also includes token-based security with token rotation and expiration.
 - [Books](#books)
 - [Book-Author Relationships](#br-relationships)
 - [License](#license)
+- [Contact](#Contacts)
 
 ## Getting Started
 

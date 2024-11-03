@@ -242,6 +242,11 @@ composer install
 **Access the API at http://localhost:8000.**
 ## License
 This project is open-source and available under the MIT License.
+## Contact
+For questions or comments, please contact arnel.limbaga@student.dmmmsu.edu.ph.
+```
+This README provides clear instructions, API endpoint information, and setup steps for anyone interested in using or contributing to the project.
+```
 
 
 

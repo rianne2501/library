@@ -154,6 +154,37 @@ to set up the project and configure the database.
 }
 ```
 ## Book 
+- POST /books: Add a new book.
+```
+//Json Content
+{
+    "title": "",
+    "author_id": "",
+    "token": "Your Token"
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
+```
+- GET /books/get: Retrieve all books.
+```
+//Json Content
+{
+    "token": "Your Token"
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": []
+```
 ## Book-Author Relationship 
 **Install Dependencies with Composer**
 ```

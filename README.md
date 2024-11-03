@@ -106,7 +106,23 @@ to set up the project and configure the database.
 }
 ```
 - GET /authors/get: Retrieve all authors.
+``` 
+     //JSON CONTENT BODY
+{
+   {
+  "token": Your token
+}
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "You Token",
+  "data": []
+  }
 
+```
 ## Book 
 ## Book-Author Relationship 
 **Install Dependencies with Composer**

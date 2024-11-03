@@ -83,6 +83,17 @@ to set up the project and configure the database.
 ```
 ## Author 
 - POST /authors: Add a new author.
+  ``` 
+     //JSON CONTENT BODY
+{
+   {
+  "token": [Your token]
+}
+}
+```
+   **Response**
+
+
 - GET /authors/get: Retrieve all authors.
 - PUT /authors/update/{id}: Update author information by ID.
 - DELETE /authors/delete/{id}: Delete an author by ID.

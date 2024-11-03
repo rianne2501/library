@@ -92,8 +92,14 @@ to set up the project and configure the database.
 }
 ```
 **Response**
+```
+{
+  "status": "success",
+  "access_token": "You Token",
+  "data": []
+  }
 
-
+```
 - GET /authors/get: Retrieve all authors.
 - PUT /authors/update/{id}: Update author information by ID.
 - DELETE /authors/delete/{id}: Delete an author by ID.

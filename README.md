@@ -86,8 +86,9 @@ to set up the project and configure the database.
 ``` 
      //JSON CONTENT BODY
 {
-    "username": "",
-    "password": ""
+   {
+  "token": Your token
+}
 }
 ```
 **Response**

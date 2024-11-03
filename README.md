@@ -86,20 +86,27 @@ to set up the project and configure the database.
 ``` 
      //JSON CONTENT BODY
 {
-   {
-  "token": Your token
-}
+    "name": "",
+    "token": "Your Token"
 }
 ```
 **Response**
 ```
+//If Posting Authors is success
 {
   "status": "success",
-  "access_token": "You Token",
-  "data": []
-  }
-
+  "access_token": "Your Token",
+  "data": null
+}
+// If not sucess
+{
+  "status": "fail",
+  "access_token": null,
+  "message": "Token already used or invalid"
+}
 ```
+- GET /authors/get: Retrieve all authors.
+
 ## Book 
 ## Book-Author Relationship 
 **Install Dependencies with Composer**

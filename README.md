@@ -218,6 +218,22 @@ to set up the project and configure the database.
 }
 ```
 ## Book-Author Relationship 
+- POST /books/get_by_author: Get book using author ID.
+```
+//Json Content
+{
+    "author_id": "",
+    "token": "Your Token"
+}
+```
+**Response**
+```
+{
+  "status": "success",
+  "access_token": "Your Token",
+  "data": null
+}
+```
 **Install Dependencies with Composer**
 ```
 composer install

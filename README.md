@@ -100,9 +100,6 @@ to set up the project and configure the database.
   }
 
 ```
-- GET /authors/get: Retrieve all authors.
-- PUT /authors/update/{id}: Update author information by ID.
-- DELETE /authors/delete/{id}: Delete an author by ID.
 ## Book 
 ## Book-Author Relationship 
 **Install Dependencies with Composer**

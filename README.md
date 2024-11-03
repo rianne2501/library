@@ -82,6 +82,14 @@ to set up the project and configure the database.
 }
 ```
 ## Author 
+-POST /authors: Add a new author.
+``` 
+     //JSON CONTENT BODY
+{
+    "username": "",
+    "password": ""
+}
+```
 ## Book 
 ## Book-Author Relationship 
 **Install Dependencies with Composer**

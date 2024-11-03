@@ -239,6 +239,8 @@ to set up the project and configure the database.
 composer install
 ```
 **Access the API at http://localhost:8000.**
+## License
+This project is open-source and available under the MIT License.
 
 
 

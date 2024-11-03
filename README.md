@@ -82,24 +82,6 @@ to set up the project and configure the database.
 }
 ```
 ## Author 
-- POST /authors: Add a new author.
-  ``` 
-     //JSON CONTENT BODY
-{
-   {
-  "token": Your token
-}
-}
-```
-**Response**
-```
-{
-  "status": "success",
-  "access_token": "You Token",
-  "data": []
-  }
-
-```
 ## Book 
 ## Book-Author Relationship 
 **Install Dependencies with Composer**

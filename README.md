@@ -42,7 +42,7 @@ to set up the project and configure the database.
 ## User Authentication 
 - POST /user/register: Register a new user.
  ``` 
-     //JSON CONTENT BODY
+     //PAYLOAD
 {
     "username": "",
     "password": ""
@@ -59,7 +59,7 @@ to set up the project and configure the database.
 ```
 - POST /user/auth: Authenticate a user and return an access token.
  ``` 
-     //JSON CONTENT BODY
+     //PAYLOAD
 {
     "username": "",
     "password": ""
@@ -85,7 +85,7 @@ to set up the project and configure the database.
 ## Author 
 - POST /authors: Add a new author.
 ``` 
-     //JSON CONTENT BODY
+  //PAYLOAD
 {
     "name": "",
     "token": "Your Token"
@@ -108,7 +108,7 @@ to set up the project and configure the database.
 ```
 - GET /authors/get: Retrieve all authors.
 ``` 
-     //JSON CONTENT BODY
+    //PAYLOAD
 {
    {
   "token": Your token
@@ -125,7 +125,7 @@ to set up the project and configure the database.
 ```
 - PUT /authors/update/{id}: Update author information by ID.
 ```
-//Json Content
+//PAYLOAD
 {
     "token": "Your Token",
     "name": ""
@@ -141,7 +141,7 @@ to set up the project and configure the database.
 ```
 - DELETE /authors/delete/{id}: Delete an author by ID.
 ```
-//Json Content
+//PAYLOAD
 {
     "token": "Your Token"
 }
@@ -157,7 +157,7 @@ to set up the project and configure the database.
 ## Book 
 - POST /books: Add a new book.
 ```
-//Json Content
+//PAYLOAD
 {
     "title": "",
     "author_id": "",
@@ -174,7 +174,7 @@ to set up the project and configure the database.
 ```
 - GET /books/get: Retrieve all books.
 ```
-//Json Content
+//PAYLOAD
 {
     "token": "Your Token"
 }
@@ -188,7 +188,7 @@ to set up the project and configure the database.
 ```
 - PUT /books/update/{id}: Update book information by ID.
 ```
-//Json Content
+//PAYLOAD
 {
     "title": "",
     "author_id": "",
@@ -205,7 +205,7 @@ to set up the project and configure the database.
 ```
 - DELETE /books/delete/{id}: Delete a book by ID.
 ```
-//Json Content
+//PAYLOAD
 {
     "token": "Your Token"
 }
@@ -221,7 +221,7 @@ to set up the project and configure the database.
 ## Book-Author Relationship 
 - POST /books/get_by_author: Get book using author ID.
 ```
-//Json Content
+//PAYLOAD
 {
     "author_id": "",
     "token": "Your Token"
